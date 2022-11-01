@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "tpfinal",
+  "version": "2.0.0",
+  "description": "Segunda Entrega del Trabajo Practico Final - Coderhouse",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "startJson": "node server.js json",
+    "startMongo": "node server.js mongodb",
+    "startFirebase": "node server.js firebase"
+  },
+  "keywords": [],
+  "author": "Natanael Larocca",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "firebase-admin": "^10.2.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4"
+  }
+}
